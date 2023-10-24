@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    background-color: black;
+    width: 500px;
+    height: 950px;
+    border-radius: 70px;
+   /* justify-content: center;
+   text-align: center; */
+   border: 13px solid #101010;
+   display: flex;
+   flex-direction: column;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: 1px;
+    /* background-color: red; */
+   border-radius: 65px 65px 0px 0;
+   /* margin-left: 50px; */
+   color: white;
+   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#clock{
+    margin-left: 30px;
+    margin-top: 19px;
+    position: static;
+    padding-right: 28px;
+    font-size: larger;
+}
+.notch{
+    margin-left: 18px;
+    border-radius: 0px 0px 20px 20px;
+    width:260px;
+    height: 42px;
+    background-color: 	#101010;
+    border: 1px solid #101010;
+   margin-right: 10px;
+}
+i{
+   font-size: medium;
+   margin: 20px 7px 3px 5px ;
+   color: white;
+}
+.score{
+    width: 100%;
+    height: 100px;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    border: 2px black;
+    font-size: 70px;
+    padding-left: 9px;
+    padding-right: 13px;
+    border-radius: 9px;
+    text-align: right;
+}
+.btn{
+    margin-top: 90px;
+    width: 94%;
+    height: 570px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+   
+}
+.btn1{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.dash{
+    width: 35%;
+    height: 5px;
+    background-color: white;
+    margin-left: 160px;
+    border-radius: 0px 50%;
+    margin-top: 35px;
+}
+@media(max-width:450px){
+.phone{
+    width: 92%;
+    height: 700px;
+}
+.nav{
+    height: 20px;
+}
+.btn{
+    width: 90%;
+    height: 350px;
+    margin-top: 90px;
+    padding-top: 10px;
+}
+.btn1{
+    width: 60px;
+    height: 60px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  
+}
+.dash{
+    margin-top: 120px;
+   margin-left: 130px;
+}
+.score{
+    width: 100%;
+    height: 40px;
+    font-size: 50px;
+}
+.notch{
+    width:260px;
+    height: 32px;
+    margin-left: 8px;
+    border-radius: 0 0 15px 15px;
+    margin-right: 10px;
+}
+#clock{
+    font-size: large;
+    margin-top: 14px;
+}
+.dash{
+    width: 35%;
+    height: 5px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+i{
+    font-size: small;
+}
+}
