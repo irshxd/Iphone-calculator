@@ -1,12 +1,18 @@
 let string = "";
+let a = "Invalid syntax"
 let memory = 0;
 let buttons = document.querySelectorAll('.btn1');
 Array.from(buttons).forEach((button) => {
   button.addEventListener('click', (e) => {
     if(e.target.innerHTML== "="){
-        string = eval(string);
-        document.querySelector('input').value = string;
+       try{ string = eval(string);
+        let ans = document.querySelector('input').value = string;
         memory = eval(string);
+      }
+       catch(error){
+        document.querySelector('input').value= a;
+       }
+   
     }
     else if(e.target.innerHTML== "AC"){
         string = "";
@@ -33,3 +39,4 @@ function todaystime(){
 
   
 
+a
