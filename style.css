@@ -109,6 +109,7 @@
     margin-left: 15vh;
     margin-bottom: 2vh;
 }
+/* **************** phones ******************* */
 @media(max-width:450px){
 .phone{
     width: 92vh;
@@ -160,12 +161,12 @@
     margin-left: 105px;
 }
 .signal{
-    margin-left: 22vh;
+    margin-left: 26vh;
     font-size: small;
 }
 }
-
-@media(max-height: 760px){
+/* *************laptop***************** */
+@media(max-height: 800px){
     .container {
       width: 100%;
     }
@@ -173,6 +174,7 @@
     .phone {
       width: 48vh;
       border-radius: 60px;
+      height: 95vh;
     }
     #clock{
       font-size: small;
@@ -183,31 +185,31 @@
       margin-left: 12vh;
       border-radius: 0px 0px 10px 10px;
       height: 4vh;
-      width:20vh;
+      width:18vh;
     }
   
     .signal {
-      margin-left: 18.5vh;
-      font-size: 10px;
+      margin-left: 21vh;
+      font-size: 13px;
       margin-top: 1.5vh;
     }
   
     .battery {
       margin-left: 1vh;
-      font-size: 10px;
+      font-size: 13px;
       margin-top: 1.5vh;
     }
   
     .wifi {
       margin-left: 1vh;
-      font-size: 10px;
+      font-size: 13px;
       margin-top: 1.5vh;
     }
   
     .btn {
       width: 100%;
       margin-bottom: 3vh;
-      margin-top:9vh;
+      margin-top:13vh;
       
     }
   
