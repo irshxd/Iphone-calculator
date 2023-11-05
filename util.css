@@ -32,3 +32,15 @@
         font-weight: 300;
     }
 }
+@media(max-height:760px){
+    .orange{
+        font-size: 35px;
+        font-weight: 300;
+    }
+    .grey{
+        font-size: 30px;
+    }
+    .black{
+        font-size: 35px;
+    }
+}

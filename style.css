@@ -175,7 +175,7 @@
       border-radius: 60px;
     }
     #clock{
-      font-size: medium;
+      font-size: small;
       margin-top: 1.5vh;
     }
   
@@ -187,18 +187,21 @@
     }
   
     .signal {
-      margin-left: 18vh;
-      font-size: smaller;
+      margin-left: 18.5vh;
+      font-size: 10px;
+      margin-top: 1.5vh;
     }
   
     .battery {
-      margin-left: 0.5vh;
-      font-size: smaller;
+      margin-left: 1vh;
+      font-size: 10px;
+      margin-top: 1.5vh;
     }
   
     .wifi {
-      margin-left: 0.5vh;
-      font-size: smaller;
+      margin-left: 1vh;
+      font-size: 10px;
+      margin-top: 1.5vh;
     }
   
     .btn {
